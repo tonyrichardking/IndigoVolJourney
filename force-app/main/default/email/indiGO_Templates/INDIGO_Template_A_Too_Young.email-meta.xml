@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automated email if volunteer is under 18</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>INDIGO_VolunteerLetterhead</letterhead>
+    <name>INDIGO Template A - Too Young</name>
+    <style>freeForm</style>
+    <subject>*Thank you for registering*</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+
+
+Thanks so much for registering to volunteer. Unfortunately the minimum age to volunteer here is 18 years old or over, so your registration will not be taken any further.
+
+
+
+The good news is indiGO Volunteers, is a charity which connects volunteers with volunteer projects all over the world for FREE! We have two projects abroad that will accept volunteers who are 17 or older.
+
+
+
+Simply visit our website to find out more - visit indiGO Volunteers
+
+
+
+Don’t forget us when you turn 18!
+
+
+
+You can stay up-to-date on the refugee by following Help Refugees social channels.
+
+
+
+Help Refugees - facebook
+
+Help Refugees - instagram
+
+Help Refugees - twitter
+
+
+
+Thank you!
+
+
+
+*Note - if you are 18 or over and have received this email by mistake - please complete the form again, making sure you set the ‘Year’ you were born first. We are trying to fix an error in the system. Our apologies - Register Here *
+
+
+
+​
+indiGO Volunteers Coordination - Greece
+
+
+Donate to indiGO - donate here
+
+For more about indiGO Volunteers globally visit...
+
+www.indigovolunteers.org
+
+
+facebook @indigovolunteers
+
+instagram @indigovolunteers
+
+twitter @indigovolunteer
+
+Charity Reg No: 1158459</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

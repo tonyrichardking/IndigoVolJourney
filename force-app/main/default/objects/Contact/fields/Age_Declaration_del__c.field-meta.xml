@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_Declaration_del__c</fullName>
+    <description>I confirm that I am over 18.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>I confirm that I am over 18.</inlineHelpText>
+    <label>Age Declaration</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I am over 18</fullName>
+                <default>false</default>
+                <label>I am over 18</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

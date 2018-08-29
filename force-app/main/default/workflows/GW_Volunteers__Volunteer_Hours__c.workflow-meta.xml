@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Confirmed_Thessaloniki_Non_Hub</fullName>
+        <description>INDIGO - Confirmed Thessaloniki Non-Hub</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_D2_Northern_Greece_Placement_Confirmation</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Before_Arrival</fullName>
+        <description>INDIGO - Before Arrival</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_E_Before_Arrival</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Confirmed_Not_Thessaloniki_Non_Hub</fullName>
+        <description>INDIGO - Confirmed Not Thessaloniki Non Hub</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_D3_Other_Location_Placement_Confirmation</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Confirmed_Thessaloniki_Hub</fullName>
+        <description>INDIGO - Confirmed Thessaloniki Hub</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_D1_Hub_Placement_Confirmation</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Long_Term</fullName>
+        <description>INDIGO - Long Term</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_C1_Long_Term_Application_Received</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Short_Term_Non_Skilled</fullName>
+        <description>INDIGO - Short Term Non-Skilled</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_C2_Short_Term_Unskilled_Application_Received</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Short_Term_Skilled</fullName>
+        <description>INDIGO - Short Term Skilled</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_C3_Short_Term_Skilled_Application_Received</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Thank_you</fullName>
+        <description>INDIGO - Thank you</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_G_After</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Too_Early_Email</fullName>
+        <description>INDIGO - Too Early Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_B_Too_Early</template>
+    </alerts>
+    <alerts>
+        <fullName>INDIGO_Too_Young_Email</fullName>
+        <description>INDIGO - Too Young Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>GW_Volunteers__Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>refugeevolunteering@indigovolunteers.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>indiGO_Templates/INDIGO_Template_A_Too_Young</template>
+    </alerts>
+</Workflow>

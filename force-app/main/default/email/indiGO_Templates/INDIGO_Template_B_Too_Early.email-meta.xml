@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automated acknowledgement of initial signup if more than 8 weeks in advance</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>INDIGO_VolunteerLetterhead</letterhead>
+    <name>INDIGO Template B - Too Early</name>
+    <style>freeForm</style>
+    <subject>*Thank you for registering*</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+
+
+Thanks so much for registering to volunteer. Unfortunately the ever-changing situation on the ground means it is not possible for us to accept volunteers registering to start more than 8 weeks in advance.
+
+
+It is highly likely projects will still need volunteers for the foreseeable future, so we have included some more information below on volunteering through indiGO, or you can visit our website for general information and things to consider.
+
+
+
+http://www.northerngreecevolunteers.com/
+
+
+
+&gt;&gt;&gt;&gt;
+
+
+
+More information
+
+
+
+indiGO Volunteers works in collaboration with Help Refugees to coordinate volunteers for more than 40 grassroots projects predominantly in Greece, but also in Serbia &amp; Bosnia. We recognise that it is difficult to independently find a volunteer placement that makes the most of your time and experience, so we are bridging the gap for FREE! Our role is to match up the skills and availability of volunteers to grassroots projects that need them.
+
+
+
+We are currently looking for volunteers that are;
+
+
+
+18 years old +
+
+available to start within the next 8 weeks*
+
+available to volunteer for 2 weeks or more, or live locally and can work part-time**
+
+
+
+*Due to the ever-changing situation on the ground means it is not possible for us to accept volunteers registering to start more than 8 weeks in advance.
+
+In general projects are looking for volunteers that can offer the following;
+
+
+
+Previous experience in the field
+
+Are available for 1 month +
+
+Managers / Coordinators (logistics or people)
+
+Teachers (ideally TEFL qualified or similar)
+
+Workshop/lesson leaders (kids activities, cooking, yoga, music, art etc…)
+
+Health workers, qualified medics &amp; dentists
+
+Midwives
+
+Translators (Arabic, Farsi, Urdu, Greek or German)
+
+
+
+
+Any placement of less than 2 weeks tend to be for volunteers with the following key skills;
+
+Chef / Cooking
+
+IT e.g. programming, tech support
+
+Manual / Skilled Labourer e.g electrician, construction, plumber
+
+Qualified Doctor
+
+Qualified Dentist
+
+Health Work e.g. nurse, paramedic, psychologist
+
+Translation  (Arabic, Farsi, Urdu, Greek or German)
+
+
+
+
+Anyone can registered and we will do our best to find a placement, but we just cannot guarantee one.
+
+To register to volunteer, simply complete the registration form below.
+
+
+
+
+REGISTER TO VOLUNTEER
+
+
+
+
+Thank you!
+
+
+​
+
+
+indiGO Volunteers Coordination - Greece
+
+
+
+
+
+Donate to indiGO - donate here
+
+For more about indiGO Volunteers globally visit...
+
+www.indigovolunteers.org
+
+facebook @indigovolunteers
+
+instagram @indigovolunteers
+
+twitter @indigovolunteer
+
+Charity Reg No: 1158459</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_Date_Formula__c</fullName>
+    <description>To be used for date formatting in email templates only. Not visible on page layouts.</description>
+    <externalId>false</externalId>
+    <formula>text(DAY( GW_Volunteers__Start_Date__c )) +&#39; &#39;+ CASE( MONTH( GW_Volunteers__Start_Date__c ) , 
+1, &quot;/01&quot;, 
+2, &quot;/02&quot;, 
+3, &quot;/03&quot;, 
+4, &quot;/04&quot;, 
+5, &quot;/05&quot;, 
+6, &quot;/06&quot;, 
+7, &quot;/07&quot;, 
+8, &quot;/08&quot;, 
+9, &quot;/09&quot;, 
+10, &quot;/10&quot;, 
+11, &quot;/11&quot;, 
+&quot;/12&quot;) +&#39;/ &#39;+ Text(YEAR( GW_Volunteers__Start_Date__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Start Date Formula</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

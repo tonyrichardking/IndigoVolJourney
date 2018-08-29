@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automated &quot;thank you and offer of support&quot; email sent after actual finish date</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>INDIGO_VolunteerLetterhead</letterhead>
+    <name>INDIGO Template G - After</name>
+    <style>freeForm</style>
+    <subject>Thank you for being a wonderful human!</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+We hope you made it back home safely, or on to your next adventure. Thank you so much for volunteering through indiGO Volunteers.Here are 3 final things that we would suggest you do, following your volunteer experience... 1. Settling back in After volunteering you may find it takes a bit of energy to settle back into normal life. When reflecting on your experience it may help to take some time to talk it all through with friends and family. It may also help to read the below for a bit of guidance. - Welfare &amp; transitioning home - view here &gt; - Suggested support services - view here &gt; You can be an active citizen wherever you go, and so do look out for opportunities to get involved in advocacy work, and ways to share and build on your experiences. 2. Provide feedback We are always looking to understand what is working and what we could improve on. If you have 3 minutes, we would really appreciate any feedback you would like to share with us.We’ve kept it simple with this feedback survey  If you enjoyed your volunteering experience &amp; have more time to spare, we would love to help you volunteer again. With the refugee crisis dropping out of mainstream media &amp; volunteer numbers expected to decrease by half your help is needed now more than ever! Register to volunteer &gt; 3. Share your volunteer story with others If you have 15 minutes, to provide a photo &amp; a paragraph about your experience. We would love to share it, to show how easy it can be to volunteer across social platforms. Simply add your - volunteer story here &gt; Finally, we know you have given so much already and that is more than enough, however if you are in a position to donate to the global indiGO Volunteers Charity we would be truly humbled to receive any donations. Simply follow the link below to donate today! Donate to indiGO Volunteers &gt; Thank you again for all your efforts, and for generally being a wonderful human! Don’t forget to spread the word about how easy it can be to volunteer!
+
+
+
+Peace &amp; Love,
+
+
+indiGO Volunteers Coordination - Greece
+
+
+Donate to indiGO - donate here
+
+
+For more about indiGO Volunteers globally visit...
+
+
+www.indigovolunteers.org
+
+
+facebook @indigovolunteers
+
+
+instagram @indigovolunteers
+
+
+twitter @indigovolunteer
+
+
+Charity Reg No: 1158459</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Other Location Placement Confirmation</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>INDIGO_VolunteerLetterhead</letterhead>
+    <name>INDIGO Template D3 - Other Location Placement - Confirmation</name>
+    <style>freeForm</style>
+    <subject>Finding your volunteer placement - what next?</subject>
+    <textOnly>Hello {!Contact.FirstName},
+
+Thank you so much for confirming your dates and flexibility on location.
+
+
+Looking at the latest project needs, we are going to introduce you to coordinators of projects we feel might fit with your availability and skills over the next 5-10 days.
+
+
+What do you need to do now?
+
+
+Keep an eye out for the email introducing you to projects
+
+Communicate with project directly, to find out all about what they do and what you would be doing on your placement with them
+
+Accept or decline the placement
+
+Confirm to us, if you are taking the placement or not
+
+If not, we will look at other opportunities
+
+
+
+Prepare to volunteer - please read...
+
+
+If you haven’t already we suggest you read the following, to get an idea of what happens now and what to expect volunteering through indiGO Volunteers. It covers…
+
+Who indiGO Volunteers are
+
+What we do in Greece, Serbia &amp; Bosnia
+
+Why are we here?
+
+Things to consider before volunteering
+
+Preparing for your trip
+
+
+
+READ NOW &gt;
+
+
+If you have any other questions, please get in touch.
+
+
+
+​
+indiGO Volunteers Coordination - Greece
+
+
+Donate to indiGO - donate here
+
+For more about indiGO Volunteers globally visit...
+
+www.indigovolunteers.org
+
+facebook @indigovolunteers
+
+instagram @indigovolunteers
+
+twitter @indigovolunteer
+
+Charity Reg No: 1158459</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
